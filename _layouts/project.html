@@ -1,3 +1,6 @@
+---
+layout: default
+---
 {% assign casos = site.projects | sort: "ordem" %}
 {% assign seguinte = casos[0] %}
 {% for c in casos %}{% if c.url == page.url %}{% if forloop.last == false %}{% assign seguinte = casos[forloop.index] %}{% endif %}{% endif %}{% endfor %}
