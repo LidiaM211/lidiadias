@@ -1,25 +1,28 @@
-title: "Lídia Dias"
-email: "hello@lidiadias.com"
-linkedin: "https://www.linkedin.com/in/lidiadias"
-substack: "https://lidiadias.substack.com"
-frase: "I make complex ideas clear, useful and worth reading."
-bio: "Content strategist, writer and brand storyteller helping B2B teams explain what matters without losing trust."
-lang: "en"
-description: "Personal portfolio and blog of Lídia Dias, content strategist and writer."
+# ─────────────────────────────────────────────
+#  CONFIGURAÇÃO DO SITE: edita só estas linhas
+# ─────────────────────────────────────────────
+title: "Lídia"
+# A frase grande da página inicial
+frase: "If it’s complicated, I’ll make it clear."
+# O parágrafo por baixo da frase
+bio: "I’m a B2B content strategist helping tech brands sound less like a chatbot and more like someone worth listening to."
+description: "Lídia: B2B content strategy for tech brands. Blog, work and about me."
+email: "lidiatavaresdias@gmail.com"
+linkedin: "https://www.linkedin.com/in/lidia-tavares-dias/"
+substack: "https://thestorysells.substack.com/"
+instagram: ""       # deixa vazio se não quiseres mostrar
 
-permalink: pretty
+# Não precisas de mexer daqui para baixo
+lang: en
+permalink: /blog/:title/
+markdown: kramdown
 collections:
   projects:
     output: true
     permalink: /portfolio/:name/
 defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: project
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "", type: projects }
+    values: { layout: project, topo_classe: faixa-amarela }
+exclude: [README.md, LEIA-ME.md]
