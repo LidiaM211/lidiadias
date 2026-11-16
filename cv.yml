@@ -1,0 +1,71 @@
+# Conteúdo da página About Me.
+# Para mudar um texto, edita o que está entre aspas.
+# Para acrescentar um item a uma lista, copia um bloco que começa por "-" e mantém o alinhamento.
+
+# Abertura (cada linha é um parágrafo)
+abertura:
+  - "As a kid, I wanted to be a writer. I had it all planned: a cosy café in Paris, a black coffee sipped very dramatically, and page after page of deep, melancholic words."
+  - "Instead, I ended up in marketing. Turns out I became a writer after all, with less melancholy and a lot more B2B."
+  - "I still drink my coffee black, though."
+
+# Percurso profissional
+percurso:
+  - datas: "2026 – present"
+    empresa: "KPMG Portugal"
+    cargo: "Marketing Manager, AI"
+    historia: "I built the positioning, personas and distribution for the AI offering, then a content system that takes pieces from draft to approval in days."
+  - datas: "2022 – 2026"
+    empresa: "Youverse"
+    cargo: "Marketing & Communications Manager"
+    historia: "I built the content strategy from zero: four SEO topic clusters, a new brand voice and twice the traffic, with no paid support."
+  - datas: "2022 – present"
+    empresa: "Freelance"
+    cargo: "Content Writer"
+    historia: "Every client is a new industry, from credit to medicine, and every brief starts with understanding the business before writing a word."
+  - datas: "2021 – 2022"
+    empresa: "Talkdesk"
+    cargo: "Marketing Content Writer"
+    historia: "I learned that content wins on search intent and usefulness, and that keyword density was never the point."
+  - datas: "2018 – 2021"
+    empresa: "Novabase Financial Services"
+    cargo: "Copywriter"
+    historia: "Listening to customers taught me to find a product’s real benefits, which aren’t always the ones the company sells."
+  - datas: "2011 – 2018"
+    empresa: "Avon Cosméticos"
+    cargo: "Copywriter"
+    historia: "Launch and campaign copy taught me that every strategy starts with understanding people."
+
+# O que defendes
+crencas:
+  - titulo: "Content can generate leads, not only awareness."
+    texto: "If a B2B company treats content as a brand exercise only, it’s leaving pipeline on the table."
+  - titulo: "B2B doesn’t have to be boring."
+    texto: "A serious product can still be explained in a relaxed, human way, without losing the substance."
+  - titulo: "Use the customer’s words."
+    texto: "Most B2B marketers are so immersed in their own product and jargon that they forget how the customer actually talks."
+  - titulo: "AI will change what the job is."
+    texto: "Writers will need to think like strategists and see content as a whole system. I’ve already made that shift."
+
+# Competências
+competencias:
+  - area: "Strategy"
+    lista: ["Content strategy", "Brand positioning", "Verbal identity", "SEO, AEO and GEO", "Distribution"]
+  - area: "Writing"
+    lista: ["Copywriting", "Thought leadership", "Ghostwriting", "Localization"]
+  - area: "Tools"
+    lista: ["Claude", "ChatGPT", "Copilot", "Perplexity", "Notion", "Semrush", "Ubersuggest", "Mangools", "Gamma", "Canva"]
+  - area: "Languages"
+    lista: ["English", "Portuguese"]
+
+# Recomendações
+recomendacoes:
+  - texto: "She was able to turn complex challenges into clear priorities and keep the team focused and motivated to deliver practical results. I’d recommend her without hesitation."
+    nome: "Francisca Miranda"
+    cargo: "Growth Marketing Specialist, Youverse"
+  - texto: "She makes sure work is well organised, responsibilities are fairly distributed, and everyone has the support they need to move forward. A true five-star colleague."
+    nome: "Sara Mota"
+    cargo: "UX/UI and Communication Designer"
+  - texto: "Lídia stands out for her professionalism, strong sense of responsibility, and ability to execute. She is a hands-on, collaborative professional."
+    nome: "Patrícia Andreia Santos"
+    cargo: "Senior HR Strategy & Transformation"
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.resumo | default: page.excerpt | strip_html | strip | truncate: 160 | default: site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  {% assign p = page.url %}
+  <div class="{{ page.topo_classe }}">
+    <header class="topo wrap">
+      <a class="assinatura" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav aria-label="Main">
+        <a href="{{ '/blog/' | relative_url }}"{% if p contains '/blog' %} aria-current="page"{% endif %}>Blog</a>
+        <a href="{{ '/portfolio/' | relative_url }}"{% if p contains '/portfolio' %} aria-current="page"{% endif %}>Work</a>
+        <a href="{{ '/about/' | relative_url }}"{% if p contains '/about' %} aria-current="page"{% endif %}>About Me</a>
+        <a href="mailto:{{ site.email }}">Contact</a>
+      </nav>
+    </header>
+  </div>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="rodape">
+    <div class="rodape-faixa"></div>
+    <div class="rodape-corpo wrap">
+      <p class="convite">Got a product that’s hard to explain?<br>Let’s make it clear.</p>
+      <a class="rodape-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+      {% if site.linkedin != "" %}<p class="rodape-links"><a href="{{ site.linkedin }}">Connect on LinkedIn</a></p>{% endif %}
+      <p class="copyright">© {{ 'now' | date: '%Y' }} Lídia Dias. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -5,11 +5,16 @@ permalink: /blog/
 ---
 <section class="pagina-topo wrap">
   <h1>Blog</h1>
-  <p class="subtitulo">Notes on content strategy, search, AI and the changing economics of attention.</p>
+  <p class="subtitulo">I write The Story Sells, a weekly newsletter on content marketing and storytelling for startup founders. Each edition mixes research with a clear point of view.</p>
+  <div class="botoes">
+    <a class="btn btn-principal" href="{{ site.substack }}">Subscribe on Substack</a>
+  </div>
 </section>
 
-<section class="wrap">
-  <ol class="posts">
-    {% for post in site.posts %}{% include post-item.html post=post %}{% endfor %}
-  </ol>
-</section>
+<div class="faixa-pessego">
+  <section class="seccao wrap">
+    <ol class="posts" style="margin-top: 0">
+      {% for post in site.posts %}{% include post-item.html post=post %}{% endfor %}
+    </ol>
+  </section>
+</div>
