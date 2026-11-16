@@ -1,0 +1,89 @@
+---
+layout: default
+title: About Me
+permalink: /about/
+topo_classe: "sobre-topo"
+---
+<section class="pagina-topo wrap sobre-topo">
+  <h1>About Me</h1>
+  <div class="sobre-abertura">
+    {% for paragraph in site.data.cv.abertura %}
+      <p>{{ paragraph }}</p>
+    {% endfor %}
+  </div>
+  <div class="botoes">
+    <a class="btn btn-principal" href="{{ '/portfolio/' | relative_url }}">See the work</a>
+    {% if site.linkedin != '' %}<a class="btn" href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
+  </div>
+</section>
+
+<div class="faixa-amarela">
+  <section class="seccao wrap">
+    <div class="seccao-cabeca">
+      <h2>Career path</h2>
+    </div>
+    <ul class="percurso">
+      {% for item in site.data.cv.percurso %}
+      <li>
+        <div class="percurso-datas">{{ item.datas }}</div>
+        <div class="capitulo">
+          <h3>{{ item.empresa }}</h3>
+          <div class="capitulo-cargo">{{ item.cargo }}</div>
+          <p>{{ item.historia }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>
+
+<section class="seccao wrap">
+  <div class="seccao-cabeca">
+    <h2>What I stand for</h2>
+  </div>
+  <div class="crencas">
+    {% for crenca in site.data.cv.crencas %}
+    <article class="crenca">
+      <h3>{{ crenca.titulo }}</h3>
+      <p>{{ crenca.texto }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="seccao wrap">
+  <div class="seccao-cabeca">
+    <h2>Capabilities</h2>
+  </div>
+  <div class="competencias">
+    {% for area in site.data.cv.competencias %}
+    <div class="competencia">
+      <h3>{{ area.area }}</h3>
+      <ul>
+        {% for item in area.lista %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<div class="faixa-amarela recomendacoes">
+  <section class="seccao wrap">
+    <div class="seccao-cabeca">
+      <h2>Recommendations</h2>
+    </div>
+    <div class="citacoes">
+      {% for item in site.data.cv.recomendacoes %}
+      <figure class="citacao">
+        <blockquote>{{ item.texto }}</blockquote>
+        <figcaption>
+          <span class="citacao-nome">{{ item.nome }}</span>
+          <span>{{ item.cargo }}</span>
+        </figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+  </section>
+</div>

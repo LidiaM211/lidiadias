@@ -1,0 +1,7 @@
+<li>
+  <a class="post-cartao" href="{{ include.post.url | relative_url }}">
+    <span class="post-data"><span class="ponto" aria-hidden="true"></span>{% include data.html d=include.post.date %}</span>
+    <span class="post-titulo">{{ include.post.title }}</span>
+    <span class="post-resumo">{% if include.post.resumo %}{{ include.post.resumo }}{% else %}{{ include.post.excerpt | strip_html | truncatewords: 25, "…" }}{% endif %}</span>
+  </a>
+</li>

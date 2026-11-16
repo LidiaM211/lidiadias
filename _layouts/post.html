@@ -1,0 +1,16 @@
+{% assign palavras = content | number_of_words %}{% assign minutos = palavras | divided_by: 200.0 | ceil %}
+<article class="wrap">
+  <header class="artigo-topo">
+    <a class="voltar" href="{{ '/blog/' | relative_url }}">All posts</a>
+    <p class="artigo-meta"><span class="ponto" aria-hidden="true"></span>{% include data.html d=page.date %} · {{ minutos }} min read</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.resumo %}<p class="subtitulo">{{ page.resumo }}</p>{% endif %}
+  </header>
+  <div class="texto">
+    {{ content }}
+    <div class="artigo-fim">
+      <p>Get The Story Sells in your inbox every week.</p>
+      <a class="btn btn-principal" href="{{ site.substack }}">Subscribe on Substack</a>
+    </div>
+  </div>
+</article>

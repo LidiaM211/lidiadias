@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<section class="abertura wrap">
+  <h1>{{ site.frase }}</h1>
+  <p class="subtitulo">{{ site.bio }}</p>
+  <div class="botoes">
+    <a class="btn btn-principal" href="{{ '/portfolio/' | relative_url }}">See the work</a>
+    <a class="btn" href="{{ '/blog/' | relative_url }}">Read the blog</a>
+  </div>
+</section>
+
+<div class="faixa-amarela">
+  <section class="seccao wrap">
+    <div class="seccao-cabeca">
+      <h2>Selected work</h2>
+      <a href="{{ '/portfolio/' | relative_url }}">See all work</a>
+    </div>
+    <p class="seccao-intro">Strategy, positioning and content for tech and B2B brands.</p>
+    <ol class="casos">
+      {% assign projetos = site.projects | sort: "ordem" %}
+      {% for p in projetos limit: 4 %}{% include caso-item.html p=p %}{% endfor %}
+    </ol>
+  </section>
+</div>
+
+<section class="seccao wrap">
+  <div class="seccao-cabeca">
+    <h2>From the blog</h2>
+    <a href="{{ '/blog/' | relative_url }}">Read all posts</a>
+  </div>
+  <ol class="posts">
+    {% for post in site.posts limit: 3 %}{% include post-item.html post=post %}{% endfor %}
+  </ol>
+</section>

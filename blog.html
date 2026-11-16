@@ -1,0 +1,15 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+<section class="pagina-topo wrap">
+  <h1>Blog</h1>
+  <p class="subtitulo">Notes on content strategy, search, AI and the changing economics of attention.</p>
+</section>
+
+<section class="wrap">
+  <ol class="posts">
+    {% for post in site.posts %}{% include post-item.html post=post %}{% endfor %}
+  </ol>
+</section>

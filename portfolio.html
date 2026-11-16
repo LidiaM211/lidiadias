@@ -1,0 +1,18 @@
+---
+layout: default
+title: Work
+permalink: /portfolio/
+---
+<section class="pagina-topo wrap">
+  <h1>Selected work</h1>
+  <p class="subtitulo">Strategy, positioning and content for tech and B2B brands. Each case covers the context, the strategy, what I did and what changed.</p>
+</section>
+
+<div class="faixa-amarela">
+  <section class="seccao wrap">
+    <ol class="casos">
+      {% assign projetos = site.projects | sort: "ordem" %}
+      {% for p in projetos %}{% include caso-item.html p=p %}{% endfor %}
+    </ol>
+  </section>
+</div>

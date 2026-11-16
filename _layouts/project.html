@@ -1,0 +1,32 @@
+{% assign casos = site.projects | sort: "ordem" %}
+{% assign seguinte = casos[0] %}
+{% for c in casos %}{% if c.url == page.url %}{% if forloop.last == false %}{% assign seguinte = casos[forloop.index] %}{% endif %}{% endif %}{% endfor %}
+<article>
+  <div class="faixa-amarela">
+    <header class="caso-topo wrap">
+      <a class="voltar" href="{{ '/portfolio/' | relative_url }}">All work</a>
+      <div class="etiquetas">
+        <span class="etiqueta">{{ page.cliente }}</span>
+        <span class="etiqueta">{{ page.tipo }}</span>
+        <span class="etiqueta">{{ page.year }}</span>
+      </div>
+      <h1>{{ page.title }}</h1>
+      {% if page.resumo %}<p class="subtitulo">{{ page.resumo }}</p>{% endif %}
+    </header>
+  </div>
+  {% if page.imagem and page.imagem != "" %}
+  <figure class="wrap" style="margin-block: 0 3rem"><img src="{{ page.imagem | relative_url }}" alt="{{ page.title }}"></figure>
+  {% endif %}
+  <div class="wrap">
+    <div class="texto caso">{{ content }}</div>
+    {% if page.link and page.link != "" %}<p style="margin-bottom: 4rem"><a class="btn" href="{{ page.link }}">See the published work</a></p>{% endif %}
+  </div>
+  {% if seguinte.url != page.url %}
+  <div class="faixa-pessego">
+    <section class="caso-seguinte wrap">
+      <p class="caso-seguinte-rotulo">Next case study</p>
+      <ol class="casos">{% include caso-item.html p=seguinte %}</ol>
+    </section>
+  </div>
+  {% endif %}
+</article>

@@ -1,0 +1,25 @@
+title: "Lídia Dias"
+email: "hello@lidiadias.com"
+linkedin: "https://www.linkedin.com/in/lidiadias"
+substack: "https://lidiadias.substack.com"
+frase: "I make complex ideas clear, useful and worth reading."
+bio: "Content strategist, writer and brand storyteller helping B2B teams explain what matters without losing trust."
+lang: "en"
+description: "Personal portfolio and blog of Lídia Dias, content strategist and writer."
+url: "https://lidiadias.github.io/lidiadias/"
+permalink: pretty
+collections:
+  projects:
+    output: true
+    permalink: /portfolio/:name/
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: project
