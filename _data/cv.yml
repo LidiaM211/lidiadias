@@ -5,7 +5,7 @@
 # Abertura (cada linha é um parágrafo)
 abertura:
   - "As a kid, I wanted to be a writer. I had it all planned: a cosy café in Paris, a black coffee sipped very dramatically, and page after page of deep, melancholic words."
-  - "Instead, I ended up in marketing. Turns out I became a writer after all, with less melancholy and a lot more B2B."
+  - "Instead, I ended up in marketing. Turns out I became a writer after all, with less melancholy and a lot more technology."
   - "I still drink my coffee black, though."
 
 # Percurso profissional
@@ -41,10 +41,10 @@ crencas:
     texto: "If a B2B company treats content as a brand exercise only, it’s leaving pipeline on the table."
   - titulo: "B2B doesn’t have to be boring."
     texto: "A serious product can still be explained in a relaxed, human way, without losing the substance."
-  - titulo: "Use the customer’s words."
-    texto: "Most B2B marketers are so immersed in their own product and jargon that they forget how the customer actually talks."
+  - titulo: "You need to use plain language."
+    texto: "Most B2B marketers are so immersed in their own product and jargon they forgot to talk like a person."
   - titulo: "AI will change what the job is."
-    texto: "Writers will need to think like strategists and see content as a whole system. I’ve already made that shift."
+    texto: "Writers will need to think like strategists and see content as a whole system."
 
 # Competências
 competencias:
