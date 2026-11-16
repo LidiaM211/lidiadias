@@ -6,7 +6,8 @@ frase: "I make complex ideas clear, useful and worth reading."
 bio: "Content strategist, writer and brand storyteller helping B2B teams explain what matters without losing trust."
 lang: "en"
 description: "Personal portfolio and blog of Lídia Dias, content strategist and writer."
-url: "https://lidiadias.github.io/lidiadias/"
+url: "https://lidiadias.github.io"
+baseurl: "/lidiadias"
 permalink: pretty
 collections:
   projects:
