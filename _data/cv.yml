@@ -13,27 +13,27 @@ percurso:
   - datas: "2026 – present"
     empresa: "KPMG Portugal"
     cargo: "Marketing Manager, AI"
-    historia: "I built the positioning, personas and distribution for the AI offering, then a content system that takes pieces from draft to approval in days."
+    
   - datas: "2022 – 2026"
     empresa: "Youverse"
     cargo: "Marketing & Communications Manager"
-    historia: "I built the content strategy from zero: four SEO topic clusters, a new brand voice and twice the traffic, with no paid support."
+    
   - datas: "2022 – present"
     empresa: "Freelance"
     cargo: "Content Writer"
-    historia: "Every client is a new industry, from credit to medicine, and every brief starts with understanding the business before writing a word."
+    
   - datas: "2021 – 2022"
     empresa: "Talkdesk"
     cargo: "Marketing Content Writer"
-    historia: "I learned that content wins on search intent and usefulness, and that keyword density was never the point."
+   
   - datas: "2018 – 2021"
     empresa: "Novabase Financial Services"
     cargo: "Copywriter"
-    historia: "Listening to customers taught me to find a product’s real benefits, which aren’t always the ones the company sells."
+   
   - datas: "2011 – 2018"
     empresa: "Avon Cosméticos"
     cargo: "Copywriter"
-    historia: "Launch and campaign copy taught me that every strategy starts with understanding people."
+    
 
 # O que defendes
 crencas:
