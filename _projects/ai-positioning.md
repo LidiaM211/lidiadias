@@ -1,7 +1,7 @@
 ---
-title: "Positioning, buyer personas and paid distribution for KPMG’s AI offering"
-resumo: "Taking KPMG Portugal from largely absent in the AI conversation to a visible voice and a steady source of leads, in six months."
-cliente: "KPMG Portugal"
+title: "Positioning, buyer personas and paid distribution for a Big Four firm’s AI offering"
+resumo: "Taking the Portuguese member firm of a Big Four from largely absent in the AI conversation to a visible voice and a steady source of leads, in six months."
+cliente: "Portuguese member firm of a Big Four"
 tipo: "Positioning and distribution"
 year: 2026
 ordem: 1
@@ -14,20 +14,20 @@ numeros:
   - valor: "100+"
     legenda: "leads from LinkedIn lead gen forms"
   - valor: "20,000+"
-    legenda: "followers for AI Pulse, the LinkedIn newsletter on AI"
+    legenda: "followers for the firm’s LinkedIn newsletter on AI"
 imagem: ""
 link: ""
 ---
 
 ## Context
 
-When I joined KPMG Portugal in January 2026, the firm had no defined AI offering and had said little about AI in a year and a half. Leadership was worried that KPMG was being left behind.
+When I joined the Portuguese member firm of a Big Four in January 2026, the firm had no defined AI offering and had said little about AI in a year and a half. Leadership was worried that it was being left behind.
 
-The end goal was lead generation, but first potential clients needed to see KPMG as a credible option for their AI projects. I owned audience research, messaging, content and distribution, working closely with the Head of AI and my direct manager.
+The end goal was lead generation, but first potential clients needed to see the firm as a credible option for their AI projects. I owned audience research, messaging, content and distribution, working closely with the Head of AI and my direct manager.
 
 ## The challenge
 
-PwC and EY were already vocal about AI and positioning themselves as leaders. KPMG was entering late, without a defined offering, and with significant constraints:
+Other Big Four firms were already vocal about AI and positioning themselves as leaders. We were entering late, without a defined offering, and with significant constraints:
 
 - **Strict brand and compliance approvals**
 - **Limited partner availability**, even though their expertise was essential for credibility
@@ -43,7 +43,7 @@ PwC and EY were already vocal about AI and positioning themselves as leaders. KP
 
 ## Execution
 
-**Content.** Around 20 pieces across the newsletter, the website and LinkedIn, adapting KPMG’s global research for Portugal with local context and partner perspectives.
+**Content.** Around 20 pieces across the newsletter, the website and LinkedIn, adapting the global network’s research for Portugal with local context and partner perspectives.
 
 **Working with partners.** Partners had very little time, so I interviewed them, wrote on their behalf and asked only for their review. This also helped content move through brand and compliance approvals.
 
@@ -55,11 +55,11 @@ In six months:
 
 {% include numeros.html %}
 
-KPMG went from being largely absent from the AI conversation in Portugal to having a visible voice and a steady source of leads.
+The firm went from being largely absent from the AI conversation in Portugal to having a visible voice and a steady source of leads.
 
 ## Learnings
 
-**Building positioning in a competitive market.** Entering late against vocal competitors, I couldn’t win on volume. Building the messaging around the fears of each maturity stage gave KPMG a sharper message rather than a louder one.
+**Building positioning in a competitive market.** Entering late against vocal competitors, I couldn’t win on volume. Building the messaging around the fears of each maturity stage gave the firm a sharper message rather than a louder one.
 
 **Working with senior stakeholders who have little time.** Doing the interviewing and drafting myself, and asking partners only to review, is what made producing about 20 pieces possible.
 

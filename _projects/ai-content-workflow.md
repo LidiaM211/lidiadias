@@ -1,7 +1,7 @@
 ---
-title: "Building an AI-assisted content workflow at KPMG Portugal"
+title: "Building an AI-assisted content workflow at a Big Four firm"
 resumo: "A knowledge base in Claude Projects that cut the time from first draft to final approval from weeks to days."
-cliente: "KPMG Portugal"
+cliente: "Portuguese member firm of a Big Four"
 tipo: "AI content workflow"
 year: 2026
 ordem: 3
@@ -19,7 +19,7 @@ link: ""
 
 ## Context
 
-At KPMG Portugal, I produce a steady flow of content: newsletters, emails, LinkedIn content and website pieces. All of it has to meet strict brand guidelines and pass marketing compliance review before publication.
+At the Portuguese member firm of a Big Four where I work, I produce a steady flow of content: newsletters, emails, LinkedIn content and website pieces. All of it has to meet strict brand guidelines and pass marketing compliance review before publication.
 
 ## The challenge
 
@@ -37,9 +37,9 @@ My hypothesis was that most of the delay came from context that had to be rebuil
 
 ## Execution
 
-I built a knowledge base in Claude Projects with all the information that shapes KPMG’s AI content:
+I built a knowledge base in Claude Projects with all the information that shapes the firm’s AI content:
 
-- KPMG brand guidelines and brand voice
+- The firm’s brand guidelines and brand voice
 - Marketing compliance rules
 - My own research on competitors and the market
 - The buyer personas, customer journey and positioning I had developed for the AI offering
