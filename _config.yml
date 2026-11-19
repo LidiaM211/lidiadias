@@ -13,6 +13,7 @@ substack: "https://thestorysells.substack.com/"
 instagram: ""       # deixa vazio se não quiseres mostrar
 
 # Não precisas de mexer daqui para baixo
+url: "https://lidiadias.com"
 lang: en
 permalink: /blog/:title/
 markdown: kramdown
