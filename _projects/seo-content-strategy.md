@@ -1,7 +1,7 @@
 ---
-title: "Building Youverse’s SEO content strategy from scratch"
+title: "Building an identity verification startup’s SEO content strategy from scratch"
 resumo: "Four topic clusters that made a highly technical product rank in search and make sense to business buyers."
-cliente: "Youverse"
+cliente: "Identity verification startup"
 tipo: "SEO content strategy"
 year: "2022–2026"
 ordem: 5
@@ -19,11 +19,11 @@ link: ""
 
 ## Context
 
-Youverse is a startup that develops identity verification software. When I took over content, the website had very little traffic, and the existing content was a handful of blog articles and LinkedIn posts published sporadically over time, with no strategy connecting them.
+I worked at a startup that develops identity verification software. When I took over content, the website had very little traffic, and the existing content was a handful of blog articles and LinkedIn posts published sporadically over time, with no strategy connecting them.
 
 ## The challenge
 
-Youverse works in a highly technical field. Topics such as liveness detection or anti-spoofing are hard to explain, and the audiences making buying decisions are not always technical. The content had to rank in search, be accurate enough for experts, and be clear enough for business buyers, all without paid support to amplify it.
+The company works in a highly technical field. Topics such as liveness detection or anti-spoofing are hard to explain, and the audiences making buying decisions are not always technical. The content had to rank in search, be accurate enough for experts, and be clear enough for business buyers, all without paid support to amplify it.
 
 ## Strategy
 

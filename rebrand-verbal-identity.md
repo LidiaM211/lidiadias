@@ -1,7 +1,7 @@
 ---
-title: "Leading the verbal identity and coordination of Youverse’s rebrand"
+title: "Leading the verbal identity and coordination of an identity verification startup’s rebrand"
 resumo: "A new tone of voice, messaging framework and website for an identity verification startup that needed to look like a trusted partner."
-cliente: "Youverse"
+cliente: "Identity verification startup"
 tipo: "Rebrand and verbal identity"
 year: "2022–2026"
 ordem: 4
@@ -17,17 +17,17 @@ link: ""
 
 ## Context
 
-Youverse is a startup that develops identity verification software. As the company grew in size and number of customers, its brand no longer matched the industry and the audience it wanted to reach. The request for a rebrand came from leadership and the sales team.
+I worked at a startup that develops identity verification software. As the company grew in size and number of customers, its brand no longer matched the industry and the audience it wanted to reach. The request for a rebrand came from leadership and the sales team.
 
 In this project specifically, I owned the verbal identity and coordinated the project across the designer, leadership and the website team.
 
 ## The challenge
 
-The old brand made Youverse look like a small startup rather than a trusted partner. In identity verification, that’s a serious problem: clients rely on their provider to protect their customers’ identities and to support their compliance obligations. Looking small and unproven undermined the credibility the sales team needed.
+The old brand made the company look like a small startup rather than a trusted partner. In identity verification, that’s a serious problem: clients rely on their provider to protect their customers’ identities and to support their compliance obligations. Looking small and unproven undermined the credibility the sales team needed.
 
 ## Strategy
 
-To define the new direction, I worked from conversations with the leadership team and the sales team, the people closest to the real need behind the rebrand. The goal for the verbal identity was clear. Youverse had to sound:
+To define the new direction, I worked from conversations with the leadership team and the sales team, the people closest to the real need behind the rebrand. The goal for the verbal identity was clear. The company had to sound:
 
 - **Knowledgeable**, an expert in identity verification
 - **Trustworthy**, credible enough for sensitive, regulated decisions
@@ -45,7 +45,7 @@ To define the new direction, I worked from conversations with the leadership tea
 
 {% include numeros.html %}
 
-**Market feedback:** leads and potential customers said Youverse’s brand communication felt more consistent and recognizable.
+**Market feedback:** leads and potential customers said the company’s brand communication felt more consistent and recognizable.
 
 ## Learnings
 
